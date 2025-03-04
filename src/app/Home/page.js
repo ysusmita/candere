@@ -169,7 +169,9 @@ export default function page() {
               </div>
             </div>
             <div className="instagram__wrapper--video">
-              <video poster="https://www.candere.com/media/home_page_images/d_home2022/instagram_section/video_poster.jpg" autoPlay loop controls muted style={{height: '100%' , width: '100%'}}></video>
+              <video poster="https://www.candere.com/media/home_page_images/d_home2022/instagram_section/video_poster.jpg" autoPlay loop controls muted style={{height: '100%' , width: '100%'}}>
+              <source src="https://storage.googleapis.com/marketing_emailer/campaign_300524/Video.mp4" type="video/mp4"/>
+              </video>
             </div>
            
                 <div className="handcrafting_img_wrap">
