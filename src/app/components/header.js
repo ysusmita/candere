@@ -183,10 +183,10 @@ export default function page() {
                         <p className="shop_text">SHOP BY STYLE</p>
                         <ul className="shop_style_wrap">
                             <li><img src="https://www.candere.com/media/wysiwyg/mobileMenu/sub_category/rings/Enagagement-rings_040124.jpg" alt="Engagement" /> ENGAGEMENT</li>
-                            <li><img src="https://www.candere.com/media/wysiwyg/mobileMenu/sub_category/rings/Enagagement-rings_040124.jpg" alt="Solitaire" /> SOLITAIRE</li>
-                            <li><img src="https://www.candere.com/media/wysiwyg/mobileMenu/sub_category/rings/Enagagement-rings_040124.jpg" alt="Casual" /> CASUAL</li>
-                            <li><img src="https://www.candere.com/media/wysiwyg/mobileMenu/sub_category/rings/Enagagement-rings_040124.jpg" alt="Classic" /> CLASSIC</li>
-                            <li><img src="https://www.candere.com/media/wysiwyg/mobileMenu/sub_category/rings/Enagagement-rings_040124.jpg" alt="Navratna" /> NAVRATNA</li>
+                            <li><img src="https://www.candere.com/media/wysiwyg/mobileMenu/sub_category/mangalsutras/Mangalsutra-rings_040124.jpg" alt="Solitaire" /> SOLITAIRE</li>
+                            <li><img src="https://www.candere.com/media/wysiwyg/mobileMenu/sub_category/rings/Ring-Solitaire_040124.jpg" alt="Casual" /> CASUAL</li>
+                            <li><img src="https://www.candere.com/media/wysiwyg/mobileMenu/sub_category/rings/Couple-bands_040124.jpg" alt="Classic" /> CLASSIC</li>
+                            <li><img src="https://www.candere.com/media/wysiwyg/mobileMenu/sub_category/rings/Casual_040124.jpg" alt="Navratna" /> NAVRATNA</li>
                             <li><img src="https://www.candere.com/media/wysiwyg/mobileMenu/sub_category/rings/Enagagement-rings_040124.jpg" alt="Mangalsutra" /> MANGALSUTRA RING</li>
                             <li><img src="https://www.candere.com/media/wysiwyg/mobileMenu/sub_category/rings/Enagagement-rings_040124.jpg" alt="Couple Bands" /> COUPLE BANDS</li>
                             <li><img src="https://www.candere.com/media/wysiwyg/mobileMenu/sub_category/rings/Enagagement-rings_040124.jpg" alt="Eternity" /> ETERNITY</li>
@@ -223,8 +223,8 @@ export default function page() {
                         <h3 className="shop_text">SHOP BY OCCASION</h3>
                         <ul className="occasion_wrap">
                             <li><img src="https://www.candere.com/media/wysiwyg/mobileMenu/sub_category/rings/daily_wear_rings.jpg" alt="Daily Wear" /> DAILY WEAR</li>
-                            <li><img src="https://www.candere.com/media/wysiwyg/mobileMenu/sub_category/earring/casual_outings_earring.jpg" alt="Casual Outings" /> CASUAL OUTINGS</li>
-                            <li><img src="https://www.candere.com/media/wysiwyg/mobileMenu/sub_category/earring/festive_earring.jpg" alt="Festive" /> FESTIVE</li>
+                            <li><img src="https://www.candere.com/media/wysiwyg/mobileMenu/sub_category/rings/casual_outings_rings.jpg" alt="Casual Outings" /> CASUAL OUTINGS</li>
+                            <li><img src="https://www.candere.com/media/wysiwyg/mobileMenu/sub_category/rings/festive_rings.jpg" alt="Festive" /> FESTIVE</li>
                             <li><img src="https://www.candere.com/media/wysiwyg/mobileMenu/sub_category/rings/anniversary_rings.jpg" /> ANNIVERSARY</li>
                             <li><img src="https://www.candere.com/media/wysiwyg/mobileMenu/sub_category/rings/wedding_rings.jpg" alt="Wedding" /> WEDDING</li>
                         </ul>
@@ -253,16 +253,13 @@ export default function page() {
                     <div className=" " >
                         <p className="shop_text">SHOP BY STYLE</p>
                         <ul className="shop_style_wrap">
-                            <li><img src="https://www.candere.com/media/wysiwyg/mobileMenu/sub_category/rings/Enagagement-rings_040124.jpg" alt="Engagement" /> 
-                                                            Hoops</li>
-                            <li><img src="https://www.candere.com/media/wysiwyg/mobileMenu/sub_category/rings/Enagagement-rings_040124.jpg" alt="Solitaire" /> SOLITAIRE</li>
-                            <li><img src="https://www.candere.com/media/wysiwyg/mobileMenu/sub_category/rings/Enagagement-rings_040124.jpg" alt="Casual" /> CASUAL</li>
-                            <li><img src="https://www.candere.com/media/wysiwyg/mobileMenu/sub_category/rings/Enagagement-rings_040124.jpg" alt="Classic" /> CLASSIC</li>
-                            <li><img src="https://www.candere.com/media/wysiwyg/mobileMenu/sub_category/rings/Enagagement-rings_040124.jpg" alt="Navratna" /> NAVRATNA</li>
-                            <li><img src="https://www.candere.com/media/wysiwyg/mobileMenu/sub_category/rings/Enagagement-rings_040124.jpg" alt="Mangalsutra" /> MANGALSUTRA RING</li>
-                            <li><img src="https://www.candere.com/media/wysiwyg/mobileMenu/sub_category/rings/Enagagement-rings_040124.jpg" alt="Couple Bands" /> COUPLE BANDS</li>
-                            <li><img src="https://www.candere.com/media/wysiwyg/mobileMenu/sub_category/rings/Enagagement-rings_040124.jpg" alt="Eternity" /> ETERNITY</li>
-                            <li><img src="https://www.candere.com/media/wysiwyg/mobileMenu/sub_category/rings/Enagagement-rings_040124.jpg" alt="Three Stone" /> THREE STONE</li>
+                            <li><img src="https://www.candere.com/media/wysiwyg/mobileMenu/sub_category/earring/Studs_040124.jpg" alt="Engagement" /> STUDS</li>
+                            <li><img src="https://www.candere.com/media/wysiwyg/mobileMenu/sub_category/earring/Jhumkas_040124.jpg" alt="Solitaire" /> JHUMAKA</li>
+                            <li><img src="https://www.candere.com/media/wysiwyg/mobileMenu/sub_category/earring/Drops-Dangles_040124.jpg" alt="Casual" /> DANGLES</li>
+                            <li><img src="https://www.candere.com/media/wysiwyg/mobileMenu/sub_category/earring/Hoops-Huggies_040124.jpg" alt="Classic" /> HOOP</li>
+                            <li><img src="https://www.candere.com/media/wysiwyg/mobileMenu/sub_category/earring/Sui-Dhaga_040124.jpg" alt="Navratna" /> SUI DHAGA</li>
+                            <li><img src="https://www.candere.com/media/wysiwyg/mobileMenu/sub_category/earring/Solitaire_040124.jpg" alt="Mangalsutra" />SOLITAIRE</li>
+                            <li><img src="https://www.candere.com/media/wysiwyg/mobileMenu/sub_category/earring/Navratna_040124.jpg" alt="Couple Bands" /> NAVRATNA</li>
                         </ul>
                     </div>
 
@@ -294,11 +291,11 @@ export default function page() {
                     <div className="shop-category">
                         <h3 className="shop_text">SHOP BY OCCASION</h3>
                         <ul className="occasion_wrap">
-                            <li><img src="https://www.candere.com/media/wysiwyg/mobileMenu/sub_category/rings/daily_wear_rings.jpg" alt="Daily Wear" /> DAILY WEAR</li>
+                            <li><img src="https://www.candere.com/media/wysiwyg/mobileMenu/sub_category/earring/casual_outings_earring.jpg" alt="Daily Wear" /> DAILY WEAR</li>
                             <li><img src="https://www.candere.com/media/wysiwyg/mobileMenu/sub_category/earring/casual_outings_earring.jpg" alt="Casual Outings" /> CASUAL OUTINGS</li>
                             <li><img src="https://www.candere.com/media/wysiwyg/mobileMenu/sub_category/earring/festive_earring.jpg" alt="Festive" /> FESTIVE</li>
-                            <li><img src="https://www.candere.com/media/wysiwyg/mobileMenu/sub_category/rings/anniversary_rings.jpg" /> ANNIVERSARY</li>
-                            <li><img src="https://www.candere.com/media/wysiwyg/mobileMenu/sub_category/rings/wedding_rings.jpg" alt="Wedding" /> WEDDING</li>
+                            <li><img src="https://www.candere.com/media/wysiwyg/mobileMenu/sub_category/earring/anniversary_earring.jpg" /> ANNIVERSARY</li>
+                            <li><img src="https://www.candere.com/media/wysiwyg/mobileMenu/sub_category/earring/wedding_earring.jpg" alt="Wedding" /> WEDDING</li>
                         </ul>
                     </div>
                 </div>

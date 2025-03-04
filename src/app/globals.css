@@ -325,7 +325,11 @@ a {
   padding: 24px 32px;
   background-color: #fff;
   box-shadow: rgba(200, 200, 200, .5) 0px 2px 4px 0px;
-    
+  position: absolute;
+  z-index: 10;
+  top: 139px;
+  left: 0;
+  right: 0;
 }
 .shop_wrapper{
   display: flex;
@@ -355,6 +359,9 @@ a {
   text-transform: uppercase;
   color: #4e4b66; 
   gap: 10px;                            
+}
+.shop_style_wrap li:hover{
+  color: #2fbccc;
 }
 .shop_text{
   font-family: lato, sans-serif;
@@ -871,9 +878,9 @@ h2 {
   color: #ff6600 !important;
 }
 /* swiper end */
-.watchSwiper{
+/* .watchSwiper{
 
-}
+} */
 .watchSwiper .swiper-wrapper{
   transform: translate3d(0px, 0px, 0px) !important;
 }
