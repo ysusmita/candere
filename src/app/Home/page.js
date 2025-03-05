@@ -1,7 +1,13 @@
+"use client";
 import Header from "../components/header";
 import Carousel from "../components/carousel";
 import Footer from "../components/footer"
 import Watchswiper from "../components/watchswiper"
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+import { Navigation, Pagination, Mousewheel, Keyboard, Autoplay } from 'swiper/modules';
 
 export default function page() {
   return (
@@ -140,18 +146,70 @@ export default function page() {
               <p>Pocket Friendly</p>
             </div>
           </div>
+          <Swiper 
+            cssMode={true}
+            navigation={false}
+            pagination={true}
+            mousewheel={true}
+            keyboard={true}
+            loop={true} 
+      autoplay={{
+        delay: 5000, 
+        disableOnInteraction: false, 
+        pauseOnMouseEnter: false, // Mouse hover pe bhi na rukke
+      }}
+      speed={5000} // Smooth continuous scrolling
+      slidesPerView={1} // Ek slide dikhane ke liye
+            modules={[Navigation, Pagination, Mousewheel, Keyboard, Autoplay ]}
+            className="mySwipermb_coverd   desk_dn "
+          >
+            <SwiperSlide> <div className="covered_item">
+              <img src="https://www.candere.com/media/home_page_images/gifting/small-investments_061224.jpg" alt="Brilliant Firsts" />
+              <p>Brilliant Firsts</p>
+            </div></SwiperSlide>
+            <SwiperSlide><div className="covered_item">
+              <img src="https://www.candere.com/media/home_page_images/gifting/playful-picks_061224.jpg" alt="Your mini-me's" />
+              <p>Your mini-me's</p>
+            </div></SwiperSlide>
+            <SwiperSlide> <div className="covered_item">
+              <img src="https://www.candere.com/media/home_page_images/gifting/gift-memories_061224.jpg" alt="Gift Memories" />
+              <p>Gift Memories</p>
+            </div></SwiperSlide>
+            <SwiperSlide><div className="covered_item">
+              <img src="https://www.candere.com/media/home_page_images/gifting/pehla-heera_061224.jpg" alt="Daily Diamonds" />
+              <p>Daily Diamonds</p>
+            </div></SwiperSlide>
+            <SwiperSlide><div className="covered_item">
+              <img src="https://www.candere.com/media/home_page_images/gifting/shadi-ready_061224.jpg" alt="The Bridal Edit" />
+              <p>The Bridal Edit</p>
+            </div></SwiperSlide>
+            <SwiperSlide><div className="covered_item">
+              <img src="https://www.candere.com/media/home_page_images/gifting/on-a-budget_061224.jpg" alt="Pocket Friendly" />
+              <p>Pocket Friendly</p>
+            </div></SwiperSlide>
+            
+          </Swiper>
         </section>
-        <section className="banner">
+       
+
+        <section className="banner ">
           <div className="container__group">
-            <div className="row__group">
+            <div className="row__group mob_dn">
               <img src="https://www.candere.com/media/home_page_images/bannerPromo/Solitaire-banner_270225.jpg" />
+            </div>
+            <div className="row__group desk_dn">
+              <img src="https://www.candere.com/media/home_page_images/bannerPromo/Solitaire-Mobile-banner_270225.jpg" />
             </div>
           </div>
         </section>
-        <section className="banner">
+       
+        <section className="banner ">
           <div className="container__group">
-            <div className="row__group">
-              <img src="https://www.candere.com/media/home_page_images/store/store_180225.jpg" alt="Solitaire" />
+            <div className="row__group mob_dn">
+              <img src="https://www.candere.com/media/home_page_images/store/store_180225.jpg" />
+            </div>
+            <div className="row__group desk_dn">
+              <img src="https://www.candere.com/media/home_page_images/store/storeMobile_180225.jpg" />
             </div>
           </div>
         </section>

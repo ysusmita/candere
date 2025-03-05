@@ -22,31 +22,27 @@ export default function page() {
                         <img className="mr_8" src="https://www.candere.com/media/home_page_images/mega_menu/icons/Order-Tracking.svg" />
                         <span >Order Tracking</span>
                     </div>
-                    {/* <div>
+                    
+                    
+                    <div>
                         <div className="news-ticker">
-                            <ul>
-                                <li className="list12">
+                            <div className="list_wrap">
+                                <div className="list">
                                     Workwear Essentials under 30K -
-                                    <a href="https://www.candere.com/jewellery/work-wear-jewellery/under+15k-under+20k-under+25k.html">
                                         <button className="btn23">Shop now</button>
-                                    </a>
-                                </li>
-                                <li className="list13">
-                                    <a href="https://www.candere.com/jewellery/diamond.html">
+                                </div>
+                                <div className="list">
                                         <button className="btn23">Flat 20% off</button>
-                                    </a>
                                     on Diamond &amp; Solitaire prices
-                                </li>
-                                <li className="list14">
+                                </div>
+                                <div className="list">
                                     Don't wait, Express it -
-                                    <a href="https://www.candere.com/trending/express-delivery.html">
                                         <button className="btn23">Ships in 24 hrs</button>
-                                    </a>
-                                </li>
-                            </ul>
+                                </div>
+                            </div>
                         </div>
 
-                    </div> */}
+                    </div>
                     <div className="contact_btn_wrap mob_dn" >
                         <div className="dflex">
                             <svg className="mr_8" width="12" height="15" viewBox="0 0 12 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9.19985 10.9H9.23319C9.63319 10.8667 9.93319 10.4667 9.93319 10.0333V7.46666C9.93319 7.03333 9.56652 6.63333 9.13319 6.63333H8.29985C8.23319 6.63333 8.09985 6.7 8.09985 6.8V10.6667C8.09985 10.7333 8.16652 10.8667 8.29985 10.8667H9.19985V10.9Z" fill="white"></path><path d="M5.93325 0C2.86659 0 0.333252 2.5 0.333252 5.6V8.53333C0.333252 8.6 0.399919 8.73333 0.533252 8.73333H1.56659C1.63325 8.73333 1.76659 8.66667 1.76659 8.53333V8.13333C1.76659 8.06667 1.69992 7.93333 1.56659 7.93333H1.19992C1.16659 7.93333 1.16659 7.93333 1.13325 7.9C1.09992 7.9 1.09992 7.83333 1.09992 7.83333V5.56667C1.09992 2.86667 3.29992 0.666667 5.96659 0.666667C8.63325 0.666667 10.8666 2.86667 10.8666 5.56667V7.83333C10.8666 7.9 10.7999 7.93333 10.7333 7.93333H10.3999C10.3333 7.93333 10.2333 8 10.2333 8.13333V8.53333C10.2333 8.6 10.2999 8.73333 10.3999 8.73333H11.3999C11.4666 8.73333 11.5666 8.66667 11.5666 8.53333V5.6C11.4999 2.53333 8.96659 0 5.93325 0Z" fill="white"></path><path d="M3.53337 6.66666H2.70003C2.2667 6.66666 1.8667 7.03332 1.8667 7.49999V10.0667C1.8667 10.5 2.23337 10.9 2.70003 10.9H3.53337C3.60003 10.9 3.60003 10.9 3.6667 10.8333C3.6667 10.8333 3.73337 10.7667 3.73337 10.7V6.76666L3.70003 6.73332C3.6667 6.69999 3.60003 6.66666 3.53337 6.66666Z" fill="white"></path><path d="M11.4333 8.93332H10.9C10.7667 8.93332 10.7333 8.99999 10.7333 9.09999V10.3667C10.7333 11.3 9.93333 12.1333 8.96667 12.1333H7.46667V11.4667C7.46667 11.2333 7.26667 11.0333 7 11.0333H5.26667C4.6 11.0333 4 11.6 4 12.3V12.8C4 13.4667 4.56667 14.0667 5.26667 14.0667H7C7.23333 14.0667 7.46667 13.8667 7.46667 13.6V13H8.96667C10.4 13 11.5667 11.8333 11.5667 10.4V9.19999V9.09999C11.5667 8.96665 11.5 8.93332 11.4333 8.93332Z" fill="white"></path></svg>
