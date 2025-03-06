@@ -134,7 +134,7 @@ export default function page() {
             <p className="subheading">Let's take a glimpse at our featured collections before diving in!</p>
           </div>
 
-          <div className="collection-grid">
+          <div className="collection-grid mob_dn">
             <div className="collection-item">
               <img src="https://www.candere.com/media/home_page_images/featured_collection/Oliva_270225.jpg" alt="Oliva" />
             </div>
@@ -145,6 +145,35 @@ export default function page() {
               <img src="https://www.candere.com/media/home_page_images/featured_collection/Ziva_210125.jpg" alt="Ziva" />
             </div>
           </div>
+          <Swiper 
+           slidesPerView={'auto'}
+           spaceBetween={30}
+            cssMode={true}
+            navigation={false}
+            pagination={true}
+            mousewheel={true}
+            keyboard={true}
+            loop={true} 
+      autoplay={{
+        delay: 5000, 
+        disableOnInteraction: false, 
+        pauseOnMouseEnter: false, // Mouse hover pe bhi na rukke
+      }}
+      speed={5000} // Smooth continuous scrolling
+            modules={[Navigation, Pagination, Mousewheel, Keyboard, Autoplay ]}
+            className="collectionSwiper collection-grid  desk_dn "
+          >
+            <SwiperSlide> <div className="collection-item">
+              <img src="https://www.candere.com/media/home_page_images/featured_collection/Oliva_270225.jpg" alt="Oliva" />
+            </div></SwiperSlide>
+            <SwiperSlide><div className="collection-item">
+              <img src="https://www.candere.com/media/home_page_images/featured_collection/Evil-eye_270225.jpg" alt="Evil Eye" />
+            </div></SwiperSlide>
+            <SwiperSlide><div className="collection-item">
+              <img src="https://www.candere.com/media/home_page_images/featured_collection/Ziva_210125.jpg" alt="Ziva" />
+            </div></SwiperSlide>
+            
+          </Swiper>
 
           <button className="show-more">SHOW ME MORE</button>
         </section>
