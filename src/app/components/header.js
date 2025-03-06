@@ -57,6 +57,11 @@ export default function page() {
             </div>
             <div className="header_mid">
                 <div className="dflex">
+                    <div>
+                        <span>
+                        <svg width="18" height="12" viewBox="0 0 18 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M1 12H17C17.55 12 18 11.55 18 11C18 10.45 17.55 10 17 10H1C0.45 10 0 10.45 0 11C0 11.55 0.45 12 1 12ZM1 7H17C17.55 7 18 6.55 18 6C18 5.45 17.55 5 17 5H1C0.45 5 0 5.45 0 6C0 6.55 0.45 7 1 7ZM0 1C0 1.55 0.45 2 1 2H17C17.55 2 18 1.55 18 1C18 0.45 17.55 0 17 0H1C0.45 0 0 0.45 0 1Z" fill="#6E7191"></path></svg>
+                        </span>
+                    </div>
                     <div className="logo">
                         <img src="https://www.candere.com/media/logo/stores/1/Candere_Full_logo_1.svg" />
                     </div>
@@ -106,16 +111,22 @@ export default function page() {
                         <img src="https://www.candere.com/static/version1740396150/frontend/Codilar/candere_desktop/en_US/Codilar_Mystore/images/icons/userFilled.svg" />
                     </div>
                     <div className=" user_icon like_icon">
+                        <span className="mob_dn">
                         <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M11.1249 16.775C10.4916 17.35 9.51655 17.35 8.88322 16.7667L8.79155 16.6833C4.41655 12.725 1.55822 10.1333 1.66655 6.9C1.71655 5.48333 2.44155 4.125 3.61655 3.325C5.81655 1.825 8.53322 2.525 9.99988 4.24166C11.4665 2.525 14.1832 1.81666 16.3832 3.325C17.5582 4.125 18.2832 5.48333 18.3332 6.9C18.4499 10.1333 15.5832 12.725 11.2082 16.7L11.1249 16.775Z" fill="#1A6770"></path></svg>
+                        </span>
                         <span data-bind="text: wishlist().counter ? parseInt(wishlist().counter) : 0 " className="counter qty">0</span>
+                        <img src="https://www.candere.com/static/version1741081083/frontend/Codilar/candere_mobile/en_US/Magento_Wishlist/images/wishlist.svg" className="desk_dn" />
                     </div>
                     <div className=" user_icon">
+                        <span className="mob_dn">
                         <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M14.9999 4.99999H13.3333C13.3333 3.15832 11.8416 1.66666 9.99992 1.66666C8.15825 1.66666 6.66659 3.15832 6.66659 4.99999H4.99992C4.08325 4.99999 3.33325 5.74999 3.33325 6.66666V16.6667C3.33325 17.5833 4.08325 18.3333 4.99992 18.3333H14.9999C15.9166 18.3333 16.6666 17.5833 16.6666 16.6667V6.66666C16.6666 5.74999 15.9166 4.99999 14.9999 4.99999ZM8.33325 8.33332C8.33325 8.79166 7.95825 9.16666 7.49992 9.16666C7.04159 9.16666 6.66659 8.79166 6.66659 8.33332V6.66666H8.33325V8.33332ZM9.99992 3.33332C10.9166 3.33332 11.6666 4.08332 11.6666 4.99999H8.33325C8.33325 4.08332 9.08325 3.33332 9.99992 3.33332ZM13.3333 8.33332C13.3333 8.79166 12.9583 9.16666 12.4999 9.16666C12.0416 9.16666 11.6666 8.79166 11.6666 8.33332V6.66666H13.3333V8.33332Z" fill="#1A6770"></path></svg>
+                        </span>
+                        <img src="https://www.candere.com/static/version1741081083/frontend/Codilar/candere_mobile/en_US/Magento_Wishlist/images/bag.svg" className="desk_dn"/>
                     </div>
 
                 </div>
             </div>
-            <div className="navbar_wrappwr" >
+            <div className="navbar_wrappwr mob_dn" >
                 <ul className="nav_wrap">
                     <li >Bestsellers </li>
                     <li >

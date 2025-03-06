@@ -11,7 +11,40 @@ import { Navigation, Pagination, Mousewheel, Keyboard, Autoplay } from 'swiper/m
 
 export default function page() {
   return (
-    <><Header /><Carousel />
+    <><Header />
+   <section className="catg_product desk_dn">
+    <div className="catg_product_wrap">
+      <div className="catg_product_list">
+        <img src="https://www.candere.com/media/wysiwyg/homepage/horizontal_menu/Mangalsutra_1_210524.png" />
+        <span>Mangalsutra</span>
+      </div>
+      <div className="catg_product_list">
+        <img src="https://www.candere.com/media/wysiwyg/homepage/horizontal_menu/Ring_170124.jpg" />
+        <span>Ring</span>
+      </div>
+      <div className="catg_product_list">
+        <img src="https://www.candere.com/media/wysiwyg/homepage/horizontal_menu/Necklace_050624.jpg" />
+        <span>Necklace</span>
+      </div>
+      <div className="catg_product_list">
+        <img src="https://www.candere.com/media/wysiwyg/homepage/horizontal_menu/Earring_060524.jpg" />
+        <span>Earring</span>
+      </div>
+      <div className="catg_product_list">
+        <img src="https://www.candere.com/media/wysiwyg/homepage/horizontal_menu/Chains_050624.jpg" />
+        <span>Chains</span>
+      </div>
+      <div className="catg_product_list">
+        <img src="https://www.candere.com/media/wysiwyg/homepage/horizontal_menu/Solitaire.jpg" />
+        <span>Solitaire</span>
+      </div>
+      <div className="catg_product_list">
+        <img src="https://www.candere.com/media/wysiwyg/homepage/horizontal_menu/Bangle_020623.png" />
+        <span>Bangle</span>
+      </div>
+    </div>
+   </section>
+    <Carousel />
       <div className="main_container">
         <div className="offer_banner ">
           <div className="offer_left_banner">
@@ -120,7 +153,7 @@ export default function page() {
             <div className="heading">We've Got You Covered!</div>
             <p className="subheading">Whatever you are looking for we have it</p>
           </div>
-          <div className="covered_grid">
+          <div className="covered_grid mob_dn">
             <div className="covered_item">
               <img src="https://www.candere.com/media/home_page_images/gifting/small-investments_061224.jpg" alt="Brilliant Firsts" />
               <p>Brilliant Firsts</p>
