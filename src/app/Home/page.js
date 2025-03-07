@@ -95,24 +95,35 @@ export default function page() {
                   <span className="image_text">Classy Earrings</span>
                 </div>
               </div>
-              <div className="product_item Mangalsutras_img">
+              <div className="product_item Mangalsutras_img mob_dn">
                 <img src="https://www.candere.com/media/home_page_images/product_categories/Mangalsutra_Desktop_210125.jpg" alt="Versatile Mangalsutras" />
                 <span className="Mangalsutras_text">Versatile Mangalsutras</span>
               </div>
             </div>
-
-
+            <div className="product_item_mb">
+            <div className="desk_dn">
+            <div className="product_item Mangalsutras_img">
+                <img src="https://www.candere.com/media/home_page_images/product_categories/Mangalsutra_Desktop_210125.jpg" alt="Versatile Mangalsutras" />
+                <span className="image_text">Versatile Mangalsutras</span>
+              </div>
+              <div className="product_item Mangalsutras_img gorgeous">
+                <img src="https://www.candere.com/media/home_page_images/product_categories/Bracelet_Desktop_210125.jpg" alt="Gorgeous Bracelets" />
+                <span className="image_text">Gorgeous Bracelets</span>
+              </div>
+            </div>
             <div className="product_item">
               <img src="https://www.candere.com/media/home_page_images/product_categories/Necklace_Desktop_210125.jpg" alt="Elegant Necklaces" />
               <span className="image_text">Elegant Necklaces</span>
             </div>
 
+            </div>
+
             <div className="product_wrap">
-              <div className="product_item">
+              <div className="product_item mob_dn">
                 <img src="https://www.candere.com/media/home_page_images/product_categories/Bracelet_Desktop_210125.jpg" alt="Gorgeous Bracelets" />
                 <span className="image_text">Gorgeous Bracelets</span>
               </div>
-              <div className="dflex pd_itme">
+              <div className=" pd_itme">
                 <div className="product_item ring_img">
                   <img src="https://www.candere.com/media/home_page_images/product_categories/Pendant_210125.jpg" alt="Dainty Pendants" />
                   <span className="image_text"> Dainty Pendants</span>
@@ -154,7 +165,7 @@ export default function page() {
                keyboard={true}
                loop={true} 
          autoplay={{
-           delay: 5000, 
+           delay: 3000, 
            disableOnInteraction: false, 
           
          }}
