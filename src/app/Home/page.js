@@ -146,19 +146,18 @@ export default function page() {
             </div>
           </div>
           <Swiper 
-           slidesPerView={'auto'}
-           spaceBetween={30}
-            cssMode={true}
-            navigation={false}
-            pagination={true}
-            mousewheel={true}
-            keyboard={true}
-            loop={true} 
-      autoplay={{
-        delay: 5000, 
-        disableOnInteraction: false, 
-        pauseOnMouseEnter: false, // Mouse hover pe bhi na rukke
-      }}
+         slidesPerView={1.3}
+         centeredSlides={true}
+         spaceBetween={30}
+         
+               mousewheel={true}
+               keyboard={true}
+               loop={true} 
+         autoplay={{
+           delay: 5000, 
+           disableOnInteraction: false, 
+          
+         }}
       speed={5000} // Smooth continuous scrolling
             modules={[Navigation, Pagination, Mousewheel, Keyboard, Autoplay ]}
             className="collectionSwiper collection-grid  desk_dn "
@@ -209,19 +208,20 @@ export default function page() {
             </div>
           </div>
           <Swiper 
-            cssMode={true}
-            navigation={false}
-            pagination={true}
+      slidesPerView={1.3}
+      centeredSlides={true}
+      spaceBetween={30}
+      
             mousewheel={true}
             keyboard={true}
             loop={true} 
       autoplay={{
         delay: 5000, 
         disableOnInteraction: false, 
-        pauseOnMouseEnter: false, // Mouse hover pe bhi na rukke
+       
       }}
-      speed={5000} // Smooth continuous scrolling
-      slidesPerView={1} // Ek slide dikhane ke liye
+      speed={3000} // Smooth continuous scrolling
+      // slidesPerView={1} // Ek slide dikhane ke liye
             modules={[Navigation, Pagination, Mousewheel, Keyboard, Autoplay ]}
             className="mySwipermb_coverd   desk_dn "
           >
@@ -280,6 +280,8 @@ export default function page() {
             <div className="heading">Handcrafting Precious Memories To Delight You</div>
           </div>
           <div className="handcrafting">
+            <div className="handcrafting_wrapper">
+
             <div className="handcrafting_img_wrap">
               <div className="handcrafting_img">
                 <img src="https://www.candere.com/media/home_page_images/social/1_270225.jpg" />
@@ -293,7 +295,9 @@ export default function page() {
               <source src="https://storage.googleapis.com/marketing_emailer/campaign_300524/Video.mp4" type="video/mp4"/>
               </video>
             </div>
-           
+            </div>
+           <div className="handcrafting_wrapper">
+
                 <div className="handcrafting_img_wrap">
                   <div className="handcrafting_img">
                     <img src="https://www.candere.com/media/home_page_images/social/1_270225.jpg" />
@@ -311,6 +315,7 @@ export default function page() {
                     <img src="https://www.candere.com/media/home_page_images/social/2_270225.jpg" />
                   </div>
                 </div>
+           </div>
 
           </div>
         </section>
