@@ -8,8 +8,48 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import { Navigation, Pagination, Mousewheel, Keyboard, Autoplay } from 'swiper/modules';
+import { useGSAP } from "@gsap/react";
+import gsap from "gsap";
+import { useRef } from "react";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+
 
 export default function page() {
+  const leftBannerRef=useRef(null)
+  const rightBannerRef=useRef(null)
+  const mainContainerRef=useRef(null)
+  gsap.registerPlugin(ScrollTrigger);
+
+  useGSAP(()=>{
+    gsap.from(leftBannerRef.current,{
+      x:-100,
+      opacity:0,
+      scrollTrigger: {
+        trigger: mainContainerRef.current, // The element that triggers the animation
+        scroller:"body",
+        start: "top 70%", // When the top of the element reaches 80% of the viewport
+      }
+    })
+    gsap.from(rightBannerRef.current,{
+      x:100,
+      opacity:0,
+      scrollTrigger: {
+        trigger: rightBannerRef.current, // The element that triggers the animation
+        scroller:"body",
+        start: "top 70%", // When the top of the element reaches 80% of the viewport
+      },
+    })    
+    gsap.from(".rewards_section",{
+      scrub: 2,
+      scale:0,
+      scrollTrigger:{
+        trigger: ".rewards_section", // The element that triggers the animation
+        scroller:"body",
+        start: "top 80%",
+      }
+    })
+    
+  })
   return (
     <><Header />
    <section className="catg_product desk_dn">
@@ -45,12 +85,12 @@ export default function page() {
     </div>
    </section>
     <Carousel />
-      <div className="main_container">
+      <div ref={mainContainerRef} className="main_container">
         <div className="offer_banner ">
-          <div className="offer_left_banner">
+          <div ref={leftBannerRef} className="offer_left_banner">
             <img src="https://www.candere.com/media/home_page_images/bannerTop/LHS-Workwear_270225.gif" />
           </div>
-          <div className="offer_right_banner">
+          <div ref={rightBannerRef} className="offer_right_banner">
             <img src="https://www.candere.com/media/home_page_images/bannerTop/RHS-New-Arrival_270225.jpg" />
           </div>
         </div>
