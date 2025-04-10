@@ -18,6 +18,8 @@ export default function page() {
   const leftBannerRef=useRef(null)
   const rightBannerRef=useRef(null)
   const mainContainerRef=useRef(null)
+  const leftProductwrapRef=useRef(null)
+  const rightProductwrapRef=useRef(null)
   gsap.registerPlugin(ScrollTrigger);
 
   useGSAP(()=>{
@@ -48,7 +50,33 @@ export default function page() {
         start: "top 80%",
       }
     })
-    
+     gsap.from(leftProductwrapRef.current,{
+      x:-100,
+      opacity:0,
+      scrollTrigger: {
+        trigger: leftProductwrapRef.current, // The element that triggers the animation
+        scroller:"body",
+        start: "top 70%", // When the top of the element reaches 80% of the viewport
+      }
+    })
+    gsap.from(rightProductwrapRef.current,{
+      x:100,
+      opacity:0,
+      scrollTrigger: {
+        trigger: rightProductwrapRef.current, // The element that triggers the animation
+        scroller:"body",
+        start: "top 70%", // When the top of the element reaches 80% of the viewport
+      },
+    })  
+    gsap.from(".elegant_img",{
+      scrub: 2,
+      scale:0,
+      scrollTrigger:{
+        trigger: ".elegant_img", // The element that triggers the animation
+        scroller:"body",
+        start: "top 70%",
+      }
+    })  
   })
   return (
     <><Header />
@@ -124,7 +152,7 @@ export default function page() {
             <p className="subheading">So that you don't run out of options to choose from!</p>
           </div>
           <div className="product-grid">
-            <div className="product_wrap">
+            <div ref={leftProductwrapRef} className="product_wrap">
               <div className="dflex pd_itme">
                 <div className="product_item ring_img">
                   <img src="https://www.candere.com/media/home_page_images/product_categories/Ring_210125.jpg" alt="Stunning Rings" />
@@ -151,14 +179,14 @@ export default function page() {
                 <span className="image_text">Gorgeous Bracelets</span>
               </div>
             </div>
-            <div className="product_item">
+            <div className="product_item elegant_img">
               <img src="https://www.candere.com/media/home_page_images/product_categories/Necklace_Desktop_210125.jpg" alt="Elegant Necklaces" />
               <span className="image_text">Elegant Necklaces</span>
             </div>
 
             </div>
 
-            <div className="product_wrap">
+            <div ref={rightProductwrapRef} className="product_wrap">
               <div className="product_item mob_dn">
                 <img src="https://www.candere.com/media/home_page_images/product_categories/Bracelet_Desktop_210125.jpg" alt="Gorgeous Bracelets" />
                 <span className="image_text">Gorgeous Bracelets</span>
